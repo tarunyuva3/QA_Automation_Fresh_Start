@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results retried="1" ignored="0" total="14" passed="13" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-07-09T15:38:37 IST" name="Suite" finished-at="2026-07-09T15:41:03 IST" duration-ms="146047">
+    <groups>
+    </groups>
+    <test started-at="2026-07-09T15:38:37 IST" name="E2E UI Tests" finished-at="2026-07-09T15:41:03 IST" duration-ms="146047">
+      <class name="tests.DraggableTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.DraggableTest@10683d9d]" started-at="2026-07-09T15:38:37 IST" name="setUp" finished-at="2026-07-09T15:38:51 IST" duration-ms="13918" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testSimpleDraggable()[pri:1, instance:tests.DraggableTest@10683d9d]" started-at="2026-07-09T15:38:51 IST" name="testSimpleDraggable" finished-at="2026-07-09T15:38:56 IST" duration-ms="5265" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSimpleDraggable -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.DraggableTest@10683d9d]" started-at="2026-07-09T15:38:56 IST" name="tearDown" finished-at="2026-07-09T15:39:15 IST" duration-ms="18440" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.DraggableTest@10683d9d]" started-at="2026-07-09T15:39:15 IST" name="setUp" finished-at="2026-07-09T15:39:23 IST" duration-ms="8617" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method retried="true" signature="testAxisRestrictedDraggable()[pri:2, instance:tests.DraggableTest@10683d9d]" started-at="2026-07-09T15:39:23 IST" name="testAxisRestrictedDraggable" finished-at="2026-07-09T15:39:30 IST" duration-ms="7218" status="SKIP">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Only X box did not move horizontally! expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Only X box did not move horizontally! expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at tests.DraggableTest.testAxisRestrictedDraggable(DraggableTest.java:38)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAxisRestrictedDraggable -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.DraggableTest@10683d9d]" started-at="2026-07-09T15:39:30 IST" name="tearDown" finished-at="2026-07-09T15:40:02 IST" duration-ms="31269" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.DraggableTest@10683d9d]" started-at="2026-07-09T15:40:02 IST" name="setUp" finished-at="2026-07-09T15:40:06 IST" duration-ms="3867" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testAxisRestrictedDraggable()[pri:2, instance:tests.DraggableTest@10683d9d]" started-at="2026-07-09T15:40:06 IST" name="testAxisRestrictedDraggable" finished-at="2026-07-09T15:40:12 IST" duration-ms="6654" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAxisRestrictedDraggable -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.DraggableTest@10683d9d]" started-at="2026-07-09T15:40:12 IST" name="tearDown" finished-at="2026-07-09T15:40:18 IST" duration-ms="6225" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.DraggableTest@10683d9d]" started-at="2026-07-09T15:40:18 IST" name="setUp" finished-at="2026-07-09T15:40:22 IST" duration-ms="3373" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testCursorStyleDraggable()[pri:3, instance:tests.DraggableTest@10683d9d]" started-at="2026-07-09T15:40:22 IST" name="testCursorStyleDraggable" finished-at="2026-07-09T15:40:33 IST" duration-ms="11333" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCursorStyleDraggable -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.DraggableTest@10683d9d]" started-at="2026-07-09T15:40:33 IST" name="tearDown" finished-at="2026-07-09T15:40:40 IST" duration-ms="6563" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.DraggableTest@10683d9d]" started-at="2026-07-09T15:40:40 IST" name="setUp" finished-at="2026-07-09T15:40:44 IST" duration-ms="3854" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testContainerRestrictedElegant()[pri:4, instance:tests.DraggableTest@10683d9d]" started-at="2026-07-09T15:40:44 IST" name="testContainerRestrictedElegant" finished-at="2026-07-09T15:40:56 IST" duration-ms="12180" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testContainerRestrictedElegant -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.DraggableTest@10683d9d]" started-at="2026-07-09T15:40:56 IST" name="tearDown" finished-at="2026-07-09T15:41:03 IST" duration-ms="6879" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.DraggableTest -->
+      <class name="tests.ResizableTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.ResizableTest@5542c4ed]" started-at="2026-07-09T15:38:37 IST" name="setUp" finished-at="2026-07-09T15:38:51 IST" duration-ms="14024" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testResizableBoxWithRestriction()[pri:1, instance:tests.ResizableTest@5542c4ed]" started-at="2026-07-09T15:38:51 IST" name="testResizableBoxWithRestriction" description="Verify resizing of a box with max/min constraints" finished-at="2026-07-09T15:38:56 IST" duration-ms="5472" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testResizableBoxWithRestriction -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.ResizableTest@5542c4ed]" started-at="2026-07-09T15:38:56 IST" name="tearDown" finished-at="2026-07-09T15:39:17 IST" duration-ms="20554" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.ResizableTest@5542c4ed]" started-at="2026-07-09T15:39:17 IST" name="setUp" finished-at="2026-07-09T15:39:30 IST" duration-ms="12792" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testResizableBoxWithoutRestriction()[pri:2, instance:tests.ResizableTest@5542c4ed]" started-at="2026-07-09T15:39:30 IST" name="testResizableBoxWithoutRestriction" description="Verify free resizing of an unrestricted box" finished-at="2026-07-09T15:39:35 IST" duration-ms="5590" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testResizableBoxWithoutRestriction -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.ResizableTest@5542c4ed]" started-at="2026-07-09T15:39:35 IST" name="tearDown" finished-at="2026-07-09T15:40:07 IST" duration-ms="31593" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.ResizableTest -->
+      <class name="tests.DroppableTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.DroppableTests@815b41f]" started-at="2026-07-09T15:38:37 IST" name="setUp" finished-at="2026-07-09T15:38:52 IST" duration-ms="14565" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testSimpleDragAndDrop()[pri:1, instance:tests.DroppableTests@815b41f]" started-at="2026-07-09T15:38:52 IST" name="testSimpleDragAndDrop" description="Verify Simple Drag and Drop functionality" finished-at="2026-07-09T15:38:58 IST" duration-ms="6030" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSimpleDragAndDrop -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.DroppableTests@815b41f]" started-at="2026-07-09T15:38:58 IST" name="tearDown" finished-at="2026-07-09T15:39:15 IST" duration-ms="17037" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.DroppableTests@815b41f]" started-at="2026-07-09T15:39:15 IST" name="setUp" finished-at="2026-07-09T15:39:26 IST" duration-ms="11192" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testPreventPropagationDroppable()[pri:3, instance:tests.DroppableTests@815b41f]" started-at="2026-07-09T15:39:26 IST" name="testPreventPropagationDroppable" description="Verify Prevent Propagation behavior on nested drop boxes" finished-at="2026-07-09T15:39:36 IST" duration-ms="10492" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPreventPropagationDroppable -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.DroppableTests@815b41f]" started-at="2026-07-09T15:39:36 IST" name="tearDown" finished-at="2026-07-09T15:40:08 IST" duration-ms="31278" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.DroppableTests@815b41f]" started-at="2026-07-09T15:40:08 IST" name="setUp" finished-at="2026-07-09T15:40:11 IST" duration-ms="3724" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testRevertDraggable()[pri:4, instance:tests.DroppableTests@815b41f]" started-at="2026-07-09T15:40:11 IST" name="testRevertDraggable" description="Verify Revertible Drag and Drop behavior for both reverting and non-reverting boxes" finished-at="2026-07-09T15:40:19 IST" duration-ms="7749" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRevertDraggable -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.DroppableTests@815b41f]" started-at="2026-07-09T15:40:19 IST" name="tearDown" finished-at="2026-07-09T15:40:28 IST" duration-ms="9428" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.DroppableTests -->
+      <class name="tests.SortableTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.SortableTest@3fc2959f]" started-at="2026-07-09T15:38:37 IST" name="setUp" finished-at="2026-07-09T15:38:52 IST" duration-ms="15131" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testSortableList()[pri:1, instance:tests.SortableTest@3fc2959f]" started-at="2026-07-09T15:38:52 IST" name="testSortableList" description="Verify drag-and-drop sorting in a List view" finished-at="2026-07-09T15:38:59 IST" duration-ms="6437" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSortableList -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.SortableTest@3fc2959f]" started-at="2026-07-09T15:38:59 IST" name="tearDown" finished-at="2026-07-09T15:39:15 IST" duration-ms="16066" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.SortableTest@3fc2959f]" started-at="2026-07-09T15:39:15 IST" name="setUp" finished-at="2026-07-09T15:39:27 IST" duration-ms="12665" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testSortableGrid()[pri:2, instance:tests.SortableTest@3fc2959f]" started-at="2026-07-09T15:39:27 IST" name="testSortableGrid" description="Verify drag-and-drop sorting in a Grid view" finished-at="2026-07-09T15:39:34 IST" duration-ms="6745" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSortableGrid -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.SortableTest@3fc2959f]" started-at="2026-07-09T15:39:34 IST" name="tearDown" finished-at="2026-07-09T15:40:07 IST" duration-ms="32953" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.SortableTest -->
+      <class name="tests.SelectableTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.SelectableTest@5656be13]" started-at="2026-07-09T15:38:37 IST" name="setUp" finished-at="2026-07-09T15:38:52 IST" duration-ms="15026" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testSelectableList()[pri:1, instance:tests.SelectableTest@5656be13]" started-at="2026-07-09T15:38:52 IST" name="testSelectableList" description="Verify random selection of elements in a vertical List format" finished-at="2026-07-09T15:38:57 IST" duration-ms="4674" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSelectableList -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.SelectableTest@5656be13]" started-at="2026-07-09T15:38:57 IST" name="tearDown" finished-at="2026-07-09T15:39:26 IST" duration-ms="28929" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.SelectableTest@5656be13]" started-at="2026-07-09T15:39:26 IST" name="setUp" finished-at="2026-07-09T15:39:35 IST" duration-ms="9022" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testSelectableGrid()[pri:2, instance:tests.SelectableTest@5656be13]" started-at="2026-07-09T15:39:35 IST" name="testSelectableGrid" description="Verify random selection of elements in a Grid format" finished-at="2026-07-09T15:39:39 IST" duration-ms="4254" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSelectableGrid -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.SelectableTest@5656be13]" started-at="2026-07-09T15:39:39 IST" name="tearDown" finished-at="2026-07-09T15:40:10 IST" duration-ms="31086" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.SelectableTest -->
+    </test> <!-- E2E UI Tests -->
+  </suite> <!-- Suite -->
+</testng-results>
