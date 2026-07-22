@@ -11,7 +11,8 @@
         <methods>
           <include name="setUp"/>
           <include name="tearDown"/>
-          <include name="testAxisRestrictedDraggable"/>
+          <include name="testContainerRestrictedElegant"/>
+          <include name="testCursorStyleDraggable"/>
         </methods>
       </class> <!-- tests.DraggableTest -->
     </classes>
