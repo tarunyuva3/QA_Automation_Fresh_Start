@@ -58,7 +58,7 @@ public class SelectablePage extends BasePage {
         
         for(int index : randomIndices) {
             WebElement item = visibleElements.get(index);
-            clickElement(item); // Uses the stable click wrapper
+            clickElement(item);
             selectedElements.add(item);
         }
         return selectedElements;
